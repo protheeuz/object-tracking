@@ -248,10 +248,10 @@ def detect(opt):
 
 
                 #Objects 
-                cv2.putText(im0, "Cars:  "+str(car_count), (60, 250), font, 
+                cv2.putText(im0, "Mobil:  "+str(car_count), (60, 250), font, 
                    1.5, (20,255,0), 3, cv2.LINE_AA)                
 
-                cv2.putText(im0, "Trcuks:  "+str(truck_count), (60, 350), font, 
+                cv2.putText(im0, "Truk:  "+str(truck_count), (60, 350), font, 
                    1.5, (20,255,0), 3, cv2.LINE_AA)  
 
 
