@@ -4,17 +4,13 @@
 
 1) Clone this Repository 
 
-   `https://github.com/TalalAhmed311/Object-Tracking-Counter`
+   `https://github.com/protheeuz/object-tracking.git`
    
 2) Clone the Yolov5 Repository this Object-Tracking-Counter Folder
 
    `!git clone https://github.com/ultralytics/yolov5`
-
-3) Download DeepSort file from the link given below and paste the deep_sort folder in Object-Tracking-Counter Folder
-
-   `https://drive.google.com/drive/folders/1vjE8z5OVP1ybfaIey3BDBE7Q7SYfYePh?usp=sharing`
-   
-4) Run this command in CLI in the same folder
+  
+3) Run this command in CLI in the same folder
 
    `python tracker.py --source video.mp4 --weights yolov5s.pt --show-vid`
    
